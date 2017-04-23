@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php endforeach; ?><br /><br />
 <form method = "POST">
 <h3>Add a new image to the gallery</h3>
-<textarea name="imgurl" rows="2" cols="40" >Insert an image url</textarea><br />
+<textarea name="imgurl" rows="2" cols="40" placeholder="http://example.com/image.jpg"></textarea><br />
 <input type="submit" value="submit">
 </form>
 </div>

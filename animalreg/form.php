@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<?php endif; ?><br /><br />
 	<label>Animal Picture Link (Optional):</label><br />
 	<?php if($action == 'add') : ?>
-		<textarea name="animalpicture" rows="2" cols="50">URL...</textarea>
+		<textarea name="animalpicture" rows="2" cols="50" placeholder="http://example.com/image.jpg"></textarea>
 	<?php else : ?>
 		<textarea name="animalpicture" rows="2" cols="50"><?php echo $animal['animalpicture']; ?></textarea>
 	<?php endif; ?><br /><br />
@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<?php endif; ?><br /><br />
 	<label>Extra Information or Comment(s)</label><br />
 	<?php if ($action == 'add') : ?>
-		<textarea name ="comment" rows = "4" cols = "50">Put any extra information or comment(s) on this animal here.</textarea>
+		<textarea name ="comment" rows = "4" cols = "50" placeholder="Put any extra information or comment(s) on this animal here."></textarea>
 	<?php else : ?>
 		<textarea name ="comment" rows = "4" cols = "50"><?php echo $animal['comment'] ?></textarea>
 	<?php endif; ?>
