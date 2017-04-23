@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		<textarea name ="comment" rows = "4" cols = "50"><?php echo $animal['comment'] ?></textarea>
 	<?php endif; ?>
 	<div class="form-element">
-		<input type="submit" class="button" value="submit" />&nbsp;
+		<input type="submit" class="button" value="Submit" />&nbsp;
 		<input type="reset" class="button" />
 	</div>
 </div>

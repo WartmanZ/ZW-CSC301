@@ -12,7 +12,7 @@
 <header id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="index.html">The Endangered Animal Registry</a></h1>
+			<h1><a href="index.php">The Endangered Animal Registry</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
